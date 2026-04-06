@@ -1,0 +1,303 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Stoppe das Spiel",
+            "Beende das Spiel"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "answer",
+              "type": "ANSWER_TYPE"
+            }
+          ],
+          "name": "AnswerIntent",
+          "samples": [
+            "{answer}",
+            "{answer} oder",
+            "{answer} ist die Lösung",
+            "{answer} ist richtig",
+            "mm {answer}",
+            "äh  {answer}",
+            "Ich glaube die Lösung ist {answer}",
+            "Vielleicht {answer}",
+            "Könnte es vielleicht {answer} sein",
+            "Könnte es {answer} sein",
+            "Ich denke es ist {answer}",
+            "Ich denke {answer}",
+            "Ich glaube es ist {answer}",
+            "Ich glaube {answer}",
+            "Ist die Lösung {answer} ",
+            "Die Lösung lautet {answer}",
+            "Die Lösung ist {answer}",
+            "Es ist {answer}",
+            "Ich würde sagen {answer}",
+            "Die Antwort ist {answer}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HintIntent",
+          "samples": [
+            "Ich will einen Tipp",
+            "Ich will einen Hinweis",
+            "Ich möchte den nächsten Hinweis",
+            "Ich möchte einen Tipp",
+            "Ich möchte einen Hinweis",
+            "Ich brauche noch einen Tipp",
+            "Gib mir einen Hinweis bitte",
+            "Gib mir einen Tipp bitte",
+            "Gib mir bitte einen Tipp",
+            "Gib mir einen Tipp",
+            "Ich brauche einen Tipp",
+            "Gib mir einen Hinweis",
+            "Gib mir bitte einen Hinweis",
+            "Hinweis bitte",
+            "Ich brauche noch einen Hinweis",
+            "Bitte noch ein Hinweis",
+            "Gib mir noch einen Hinweis",
+            "Ich brauche einen Hinweis"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ResetIntent",
+          "samples": [
+            "Starte neu",
+            "Starte von vorne",
+            "Starte von vorn",
+            "Fang von vorn an",
+            "Fang das Spiel bitte von vorne an",
+            "Fang von vorne an ",
+            "Resette das Spiel",
+            "Setze alles zurück",
+            "Setze das Spiel zurück",
+            "Fang das Spiel von vorne an ",
+            "Setze die Hinweise zurück",
+            "Starte das Spiel neu"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "DontKnowIntent",
+          "samples": [
+            "weiß nicht",
+            "check ich nicht",
+            "ich checks nicht",
+            "Ich hab keine Ahnung",
+            "Keine Ahnung",
+            "Kannst du mir die Lösung sagen",
+            "Was ist die Lösung",
+            "Ich komm nicht drauf",
+            "Ich weiß es nicht",
+            "Ich weiß nicht"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "RepeatHintsIntent",
+          "samples": [
+            "Hinweise bitte ",
+            "Hinweise ",
+            "Die Hinweise",
+            "Die Hinweise nochmal",
+            "Die Hinweise bitte",
+            "Kannst du die Hinweise nochmal sagen",
+            "Kannst du die Hinweise wiederholen",
+            "Kannst du die Hinweise bitte wiederholen",
+            "Sag nochmal die Hinweise",
+            "Wiederhole die Hinweise nochmal",
+            "Wiederhole die Hinweise"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "RevealSolutionIntent",
+          "samples": [
+            "Ja die Lösung",
+            "Ich brauche die Lösung",
+            "Was ist die Lösung",
+            "Sag mir die Lösung bitte",
+            "Sag mir die Lösung",
+            "Lösung bitte",
+            "Lösung"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HowDidEverythingGetHereIntent",
+          "samples": [
+            "Wie hast du Zettel hier im Raum verteilt",
+            "Wer hat die Zettel hier verteilt",
+            "Wie sind die Zettel hergekommen",
+            "Woher kommen die Zettel",
+            "Woher kommen eigentlich die ganzen Zettel hier",
+            "Wie hast du die Zettel hier verteilt",
+            "Wie hast du die Zettel hier aufgehängt",
+            "Wie hast du die Zettel hier herbekommen"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ReadyIntent",
+          "samples": [
+            "spiel kann anfangen",
+            "spiel kann losgehen",
+            "wir können anfangen",
+            "ich will weiter machen",
+            "von mir aus kann\u0027s weitergehen",
+            "weiter geht\u0027s",
+            "wir können weitermachen ",
+            "Es kann weitergehen",
+            "Es kann losgehen",
+            "Ich bin bereit"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "RepeatPuzzleIntent",
+          "samples": [
+            "Sag bitte nochmal wo das nächste Rätsel ist",
+            "Sag bitte nochmal wo das Rätsel ist",
+            "Kannst du nochmal sagen wo das nächste Rätsel ist",
+            "Kannst du nochmal sagen wo das Rätsel ist",
+            "Kannst du das Rätsel nochmal sagen",
+            "Wo war nochmal das nächste Rätsel",
+            "Wo war das nächste Rätsel",
+            "Wo sollte ich nochmal gucken",
+            "Wo sollte ich gucken",
+            "Wo sollte ich nochmal nachschauen",
+            "Wo sollte ich nachschauen",
+            "Wo sollte ich nochmal suchen",
+            "Wo sollte ich suchen ",
+            "Womit ging es weiter",
+            "Wo ging es weiter",
+            "Wiederhole bitte das Rätsel",
+            "Wiederhole die Frage",
+            "Wiederhole bitte die Frage",
+            "Was war das Rätsel",
+            "Was war nochmal das Rätsel",
+            "Was war nochmal die Frage",
+            "Wiederhole das Rätsel"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "wir wollten sie sowieso nicht behalten"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ä. s. o. m.",
+                  "ä. s. o. n.",
+                  "e. s. o. m.",
+                  "e. s. o. n."
+                ],
+                "value": "eson"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "d. e. m. s. i.",
+                  "t. e. m. s. i.",
+                  "d. e. n. s. i.",
+                  "t. e. n. s. i."
+                ],
+                "value": "tensi"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "w. i. r. e. o. l. l.",
+                  "w. i. r. d. o. l. l.",
+                  "werwolf",
+                  "wir woll",
+                  "w. i. r. b. o. m. l.",
+                  "w. i. r. b. o. l. n.",
+                  "w. i. r. w. o. n. n.",
+                  "w. i. r. w. o. l. n.",
+                  "b. i. r. b. o. l. l.",
+                  "w. i. r. w. o. l. l."
+                ],
+                "value": "wirwoll"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "i. c. h. t. c. e.",
+                  "i. c. h. t. p. e.",
+                  "i. c. h. t. b. e."
+                ],
+                "value": "ichtbe"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "h. h. l. t. e. n.",
+                  "h. ha l. t. e. n.",
+                  "ha h. a. l. t. e. n.",
+                  "h. h. a. l. t. e. n. ",
+                  "h. a. l. t. e. n."
+                ],
+                "value": "halten"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "e. s. o. w. i. i.",
+                  "e. s. o. p. i.",
+                  "e. s. u. w. i.",
+                  "e. s. o. b. i.",
+                  "e. s. o. d. i.",
+                  "e. s. o. w. i."
+                ],
+                "value": "esowi"
+              }
+            }
+          ],
+          "name": "ANSWER_TYPE"
+        }
+      ],
+      "invocationName": "deiner cousine"
+    }
+  }
+}

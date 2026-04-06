@@ -1,0 +1,21 @@
+const Alexa = require('ask-sdk-core');
+const { marlene } = require('../util');
+
+const FallbackIntentHandler = {
+  canHandle(handlerInput) {
+    return (
+      Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest' &&
+      Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.FallbackIntent'
+    );
+  },
+  handle(handlerInput) {
+    const speakOutput = marlene('Kannst du das bitte nochmal sagen?');
+
+    return handlerInput.responseBuilder
+      .speak(speakOutput)
+      .reprompt(marlene('Bitte wiederhole das noch einmal.'))
+      .getResponse();
+  },
+};
+
+module.exports = FallbackIntentHandler;

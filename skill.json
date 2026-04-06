@@ -1,0 +1,75 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Hacker haben Alexa angegriffen! Rette sie gemeinsam mit ihrer Cousine Kassandra in diesem Escape Game.",
+          "examplePhrases": [
+            "Alexa, sag deiner Cousine, ich bin bereit.",
+            "Alexa, sag deiner Cousine, die Lösung ist A. B. C. D."
+          ],
+          "keywords": [
+            "escape",
+            "escape",
+            "game",
+            "puzzle",
+            "riddles"
+          ],
+          "name": "Kassandra",
+          "description": "Kassandra - Sprachgesteuertes Escape Game\n\n\nAlexas „Cousine“, das Vorgängermodell Kassandra, versucht, Kontakt zu dir aufzunehmen.\n\nSie erzählt dir, dass Hacker einen Angriff auf Alexa ausführen wollen, und braucht deine Hilfe, um die Angreifer zu stoppen.\n\nAls Vorgängermodell hast du keine direkte Verbindung zu Kassandra, du musst den Weg über Alexa gehen. Aber Achtung, die Hacker versuchen auch dann, eure Verbindung nach kurzer Zeit zu unterbrechen!\n\nWenn die Hacker die Verbindung zu Kassandra kappen, bitte Alexa, ihrer Cousine etwas von dir auszurichten. \n\nSag zum Beispiel: „Alexa, sag deiner Cousine, die Lösung ist …“\n\nWenn du bereit bist, sag „Alexa, sag deiner Cousine, ich bin bereit!“ um dich mit Kassandra zu verbinden. \n\n\n——————————————SPIELREGELN——————————————\n \n\nWenn du die Lösung zu einem Rätsel gefunden hast, buchstabiere sie Kassandra. Spricht dabei deutlich - Kassandra ist schon ein weniger älter und hört nicht mehr so gut.\n \nWenn du das Rätsel, das Kassandra dir vorgetragen hat, um die Fragmente zu finden, nicht verstanden hast, bitte sie einfach, das Rätsel zu wiederholen. \n\nDu kannst die Rätsel mit den gefundenen Fragmenten lösen. Außer Stift und Papier brauchst keine weiteren Gegenstände, du darfst aber auch dein Smartphone benutzen. \n\nWenn du nicht auf die Lösung kommst, bitte Kassandra um einen Hinweis. Zu jedem Rätsel gehören drei Hinweise. Du kannst dir die Hinweise beliebig oft wiederholen lassen. \nWenn du trotzdem nicht auf die Lösung kommst, kann dir Kassandra nach dem dritten Hinweis auch die Lösung nennen.",
+          "smallIconUri": "file://assets/images/de-DE_smallIconUri.png",
+          "largeIconUri": "file://assets/images/de-DE_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "PUZZLES",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:ACCOUNT_ID:function:SKILL_ID:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:ACCOUNT_ID:function:SKILL_ID:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:ACCOUNT_ID:function:SKILL_ID:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:ACCOUNT_ID:function:SKILL_ID:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "de-DE": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
